@@ -9,7 +9,7 @@ function init() {
    const imgObj = document.querySelector('img');
    const volume = document.getElementById('volume');
    const elemImg = document.getElementById('horn-select');
-   const elemAudio = document.querySelector('button');
+   const elmAudio = document.querySelector('button');
    const elemVolume = document.getElementById('volume-controls');
    //image
   
@@ -39,8 +39,8 @@ function init() {
 
   //audio
   
-  elemAudio.addEventListener('click', function() {
-    if(elemAudio.value == 'party-horn') {
+  elmAudio.addEventListener('click', function() {
+    if(elemImg.value == 'party-horn') {
      jsConfetti.addConfetti({
       emojis: ['🦄','🌈', '⚡️', '💥', '✨', '💫', '🌸'],
       emojiSize: 100,
